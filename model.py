@@ -13,7 +13,7 @@ class Stan(Model):
         schema = 'stan'
         table_name = 'Osn_stan'
 
-class inf_stan(Model):
+class InfStan(Model):
     model=CharField()
     date_buy=CharField()
     number_stan = PrimaryKeyField()
